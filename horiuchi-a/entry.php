@@ -103,11 +103,8 @@
             </script>
 
             <div>
-                
-                <?php
-                # h()関数☆レシピ221☆（安全にブラウザで値を表示したい）を読み込みます☆レシピ041☆（他のファイルを取り込んで利用したい）。      
-                require_once 'database_conf.php';
-                require_once 'h.php';
+
+                <?php   
                 $sw = 0;
 
                 try {
@@ -130,6 +127,9 @@
                     if ($sw == 1) {
                         echo '<div align="center"><font color="#FF0000"><b>項目を正しく入力してください。　　　　　　　　　　　　</b></font></div>';
                     } else {
+
+                        require_once 'database_conf.php';
+                        require_once 'h.php';
 
                         $db = new PDO($dsn, $dbUser, $dbPass);
                         $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
