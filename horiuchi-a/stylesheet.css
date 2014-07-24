@@ -1,0 +1,94 @@
+body {
+    background-color: #DDDDDD;
+}  
+
+#menu table {
+    position: fixed;  
+}
+
+#menu td {
+    text-decoration: none; /* 下線を消す */
+    display: block; /* ブロックレベルに */
+    width: 120px;
+    background-color: #FFFFFF;
+    font: normal normal normal 20px "MS UI Gothic",sans-serif;
+    color: #000000;
+    margin: 2px 0px; /* 各項目周囲の余白 */
+    padding: 10px; /* 枠線と内容の距離をゼロに */
+    border: 2px gray solid; /* 項目の枠線 */
+    border-color: #000000;
+    font-weight: bolder;
+}
+
+#main {
+    padding-left: 170px;
+}
+
+#koumoku {
+    background-color: #DDDDDD;
+}
+
+table.tbl {
+    border-style: ridge;
+    background-color: #DDDDDD;
+    border-collapse: collapse
+}
+
+td.box {
+    height: 49px;
+    width: 119px;
+    table-layout: fixed;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+tr.boxc {
+    height: 50px;
+    width: 30px;
+    border-style: none;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+input.boxc {
+    height: 50px;
+    width: 30px;
+    border-style: none;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+input.boxs {
+    height: 50px;
+    width: 120px;
+    table-layout: fixed;
+    border-style: none;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+SELECT.boxs {
+    height: 50px;
+    width: 120px;
+    table-layout: fixed;
+    border-style: none;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+input.boxyubin {
+    height: 50px;
+    width: 70px;
+    border-style: none;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+input.boxjm {
+    height: 50px;
+    width: 180px;
+    border-style: none;
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
